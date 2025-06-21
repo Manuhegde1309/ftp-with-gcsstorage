@@ -1,0 +1,114 @@
+
+2025-05-16 21:35:43,668 - INFO - Server started on localhost:9999
+2025-05-16 21:35:55,330 - INFO - Accepted connection from ('127.0.0.1', 57238)
+2025-05-16 21:35:55,330 - INFO - Client ('127.0.0.1', 57238) connected
+2025-05-16 21:35:55,331 - INFO - Client admin authenticated from ('127.0.0.1', 57238)
+2025-05-16 21:36:28,809 - INFO - Accepted connection from ('127.0.0.1', 57243)
+2025-05-16 21:36:28,810 - INFO - Client ('127.0.0.1', 57243) connected
+2025-05-16 21:36:28,810 - INFO - Client admin authenticated from ('127.0.0.1', 57243)
+2025-05-16 21:36:53,553 - INFO - ('127.0.0.1', 57238): Executing command 'list' on file ''
+2025-05-16 21:37:15,426 - INFO - ('127.0.0.1', 57238): Executing command 'list' on file ''
+2025-05-16 21:37:50,890 - INFO - Client ('127.0.0.1', 57238) disconnected
+2025-05-16 21:38:16,558 - INFO - Client ('127.0.0.1', 57243) disconnected
+2025-05-16 21:38:27,527 - INFO - Server stopped.
+2025-06-15 19:17:11,438 - INFO - Server started on localhost:9999
+2025-06-15 19:17:34,561 - INFO - Accepted connection from ('127.0.0.1', 51905)
+2025-06-15 19:17:34,562 - INFO - Client ('127.0.0.1', 51905) disconnected
+2025-06-15 19:18:57,588 - INFO - Server stopped.
+2025-06-15 19:18:59,151 - INFO - Server started on localhost:9999
+2025-06-15 19:19:11,374 - INFO - Accepted connection from ('127.0.0.1', 51941)
+2025-06-15 19:19:11,583 - WARNING - Authentication failed for ('127.0.0.1', 51941)
+2025-06-15 19:19:11,583 - INFO - Client ('127.0.0.1', 51941) disconnected
+2025-06-15 19:19:16,073 - INFO - Accepted connection from ('127.0.0.1', 51942)
+2025-06-15 19:19:16,281 - INFO - Client admin authenticated from ('127.0.0.1', 51942)
+2025-06-15 19:19:26,282 - ERROR - Error receiving data: The read operation timed out
+2025-06-15 19:19:26,283 - INFO - Client ('127.0.0.1', 51942) disconnected
+2025-06-15 19:20:06,277 - INFO - Server stopped.
+2025-06-15 19:20:29,276 - INFO - Server started on localhost:9999
+2025-06-15 19:20:41,120 - INFO - Accepted connection from ('127.0.0.1', 51950)
+2025-06-15 19:20:41,121 - INFO - Client ('127.0.0.1', 51950) connected
+2025-06-15 19:20:41,122 - INFO - Client admin authenticated from ('127.0.0.1', 51950)
+2025-06-15 19:20:52,276 - INFO - ('127.0.0.1', 51950): Executing command 'upload' on file 'ww.ipynb'
+2025-06-15 19:20:52,278 - INFO - File 'ww.ipynb' uploaded by admin
+2025-06-15 19:21:18,721 - INFO - ('127.0.0.1', 51950): Executing command 'upload' on file '1.cpp'
+2025-06-15 19:21:18,723 - INFO - File '1.cpp' uploaded by admin
+2025-06-15 19:23:08,045 - INFO - ('127.0.0.1', 51950): Executing command 'upload' on file 'balanced_latex_classification Removed.csv'
+2025-06-15 19:23:08,819 - INFO - File 'balanced_latex_classification Removed.csv' uploaded by admin
+2025-06-15 19:23:57,641 - INFO - ('127.0.0.1', 51950): Executing command 'list' on file ''
+2025-06-15 19:24:10,674 - INFO - ('127.0.0.1', 51950): Executing command 'download' on file 'ww.ipynb'
+2025-06-15 19:24:30,261 - INFO - Client ('127.0.0.1', 51950) disconnected
+2025-06-15 19:24:35,488 - INFO - Server stopped.
+2025-06-15 20:59:51,246 - INFO - Server started on localhost:9999
+2025-06-15 21:00:00,380 - INFO - Accepted connection from ('127.0.0.1', 53285)
+2025-06-15 21:00:00,381 - INFO - Client ('127.0.0.1', 53285) connected
+2025-06-15 21:00:00,381 - INFO - Client admin authenticated from ('127.0.0.1', 53285)
+2025-06-15 21:00:11,997 - INFO - Accepted connection from ('127.0.0.1', 53287)
+2025-06-15 21:00:11,997 - INFO - Client ('127.0.0.1', 53287) connected
+2025-06-15 21:00:11,998 - INFO - Client admin authenticated from ('127.0.0.1', 53287)
+2025-06-15 21:00:14,020 - INFO - ('127.0.0.1', 53287): Executing command 'list' on file ''
+2025-06-15 21:00:15,977 - INFO - Client ('127.0.0.1', 53287) disconnected
+2025-06-15 21:04:10,203 - INFO - Client ('127.0.0.1', 53285) disconnected
+2025-06-15 21:04:10,203 - INFO - Server stopped.
+2025-06-15 21:04:17,146 - INFO - Server started on localhost:9999
+2025-06-15 21:04:22,515 - INFO - Accepted connection from ('127.0.0.1', 53558)
+2025-06-15 21:04:22,515 - INFO - Client ('127.0.0.1', 53558) connected
+2025-06-15 21:04:22,516 - INFO - Client admin authenticated from ('127.0.0.1', 53558)
+2025-06-15 21:04:30,057 - INFO - Accepted connection from ('127.0.0.1', 53559)
+2025-06-15 21:04:30,058 - INFO - Client ('127.0.0.1', 53559) connected
+2025-06-15 21:04:30,058 - WARNING - User admin is already logged in from ('127.0.0.1', 53558)
+2025-06-15 21:04:30,058 - INFO - Client ('127.0.0.1', 53559) disconnected
+2025-06-15 21:07:44,855 - INFO - User admin logged out
+2025-06-15 21:07:44,857 - INFO - Client ('127.0.0.1', 53558) disconnected
+2025-06-15 21:07:47,796 - INFO - Server stopped.
+2025-06-21 14:38:48,772 - INFO - Server started on localhost:9999
+2025-06-21 14:39:14,354 - INFO - Accepted connection from ('127.0.0.1', 52423)
+2025-06-21 14:39:14,355 - INFO - Client ('127.0.0.1', 52423) connected
+2025-06-21 14:39:14,355 - INFO - Client admin authenticated from ('127.0.0.1', 52423)
+2025-06-21 14:39:16,620 - INFO - ('127.0.0.1', 52423): Executing command 'list' on file ''
+2025-06-21 14:39:40,305 - INFO - ('127.0.0.1', 52423): Executing command 'upload' on file 'ww.ipynb'
+2025-06-21 14:39:40,718 - INFO - File 'ww.ipynb' uploaded by admin
+2025-06-21 14:39:44,871 - INFO - ('127.0.0.1', 52423): Executing command 'list' on file ''
+2025-06-21 14:40:17,878 - INFO - ('127.0.0.1', 52423): Executing command 'delete' on file 'ww.ipynb'
+2025-06-21 14:40:18,616 - INFO - File 'ww.ipynb' deleted by admin
+2025-06-21 14:41:38,367 - INFO - ('127.0.0.1', 52423): Executing command 'upload' on file 'ww.ipynb'
+2025-06-21 14:41:38,791 - INFO - File 'ww.ipynb' uploaded by admin
+2025-06-21 14:41:49,261 - INFO - ('127.0.0.1', 52423): Executing command 'view' on file 'ww.ipynb'
+2025-06-21 14:42:13,351 - INFO - ('127.0.0.1', 52423): Executing command 'upload' on file 'app.py'
+2025-06-21 14:42:13,754 - INFO - File 'app.py' uploaded by admin
+2025-06-21 14:42:21,107 - INFO - ('127.0.0.1', 52423): Executing command 'view' on file '/Users/manu/Documents/personalproj/distributed-file-system/app.py'
+2025-06-21 14:42:43,062 - INFO - ('127.0.0.1', 52423): Executing command 'view' on file 'app.py'
+2025-06-21 14:43:08,823 - INFO - User admin logged out
+2025-06-21 14:43:08,823 - INFO - Client ('127.0.0.1', 52423) disconnected
+2025-06-21 14:43:13,318 - INFO - Server stopped.
+2025-06-21 15:07:26,487 - INFO - Server started on localhost:9999
+2025-06-21 15:07:54,128 - INFO - Accepted connection from ('127.0.0.1', 52922)
+2025-06-21 15:07:54,129 - INFO - Client ('127.0.0.1', 52922) connected
+2025-06-21 15:07:54,129 - INFO - Client admin authenticated from ('127.0.0.1', 52922)
+2025-06-21 15:08:01,496 - INFO - Accepted connection from ('127.0.0.1', 52923)
+2025-06-21 15:08:01,496 - INFO - Client ('127.0.0.1', 52923) connected
+2025-06-21 15:08:01,496 - WARNING - User admin is already logged in from ('127.0.0.1', 52922)
+2025-06-21 15:08:01,497 - INFO - Client ('127.0.0.1', 52923) disconnected
+2025-06-21 15:08:22,055 - INFO - Accepted connection from ('127.0.0.1', 52928)
+2025-06-21 15:08:22,056 - INFO - Client ('127.0.0.1', 52928) connected
+2025-06-21 15:08:22,056 - INFO - Client user authenticated from ('127.0.0.1', 52928)
+2025-06-21 15:08:26,257 - INFO - ('127.0.0.1', 52928): Executing command 'list' on file ''
+2025-06-21 15:09:23,063 - INFO - ('127.0.0.1', 52928): Executing command 'list' on file ''
+2025-06-21 15:09:39,397 - INFO - ('127.0.0.1', 52922): Executing command 'list' on file ''
+2025-06-21 15:10:23,017 - INFO - ('127.0.0.1', 52922): Executing command 'upload' on file 'server.py'
+2025-06-21 15:10:23,558 - INFO - File 'server.py' uploaded by admin
+2025-06-21 15:11:25,870 - INFO - ('127.0.0.1', 52928): Executing command 'upload' on file 'server.py'
+2025-06-21 15:11:26,329 - INFO - File 'server.py' uploaded by user
+2025-06-21 15:13:13,967 - INFO - ('127.0.0.1', 52928): Executing command 'upload' on file 'Manu_Resume.pdf'
+2025-06-21 15:13:14,961 - INFO - File 'Manu_Resume.pdf' uploaded by user
+2025-06-21 15:15:09,811 - INFO - ('127.0.0.1', 52928): Executing command 'upload' on file 'Manu_Resume.pdf'
+2025-06-21 15:15:10,863 - INFO - File 'Manu_Resume.pdf' uploaded by user
+2025-06-21 15:16:53,510 - INFO - ('127.0.0.1', 52928): Executing command 'list' on file ''
+2025-06-21 15:16:58,141 - INFO - ('127.0.0.1', 52922): Executing command 'list' on file ''
+2025-06-21 15:17:55,985 - INFO - ('127.0.0.1', 52922): Executing command 'upload' on file 'best (1).pt'
+2025-06-21 15:17:58,738 - INFO - File 'best (1).pt' uploaded by admin
+2025-06-21 15:18:33,040 - INFO - ('127.0.0.1', 52922): Executing command 'list' on file ''
+2025-06-21 15:19:06,087 - INFO - User admin logged out
+2025-06-21 15:19:06,087 - INFO - Client ('127.0.0.1', 52922) disconnected
+2025-06-21 15:19:09,930 - INFO - User user logged out
+2025-06-21 15:19:09,931 - INFO - Server stopped.
+2025-06-21 15:19:09,931 - INFO - Client ('127.0.0.1', 52928) disconnected
