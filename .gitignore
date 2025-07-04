@@ -50,3 +50,13 @@ server_storage/
 # OS
 .DS_Store
 Thumbs.db
+
+# ...existing content...
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# User credentials (legacy)
+id_passwd.txt

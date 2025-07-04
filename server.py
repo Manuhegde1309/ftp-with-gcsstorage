@@ -9,7 +9,7 @@ import time
 from google.cloud import storage
 import os
 from dotenv import load_dotenv
-
+from database import UserDatabase
 load_dotenv()
 
 class FileTransferServer:
@@ -22,6 +22,7 @@ class FileTransferServer:
         self.ssl_context = ssl.create_default_context(ssl.Purpose.CLIENT_AUTH)
         self.ssl_context.load_cert_chain(certfile=self.certfile, keyfile=self.keyfile)
         self.running = False
+        self.user_db=UserDatabase()
 
         if not self.storage_root.exists():
             self.storage_root.mkdir(parents=True)
@@ -163,18 +164,7 @@ class FileTransferServer:
 
     def authenticate(self, username, password):
         """Authenticate user against id_passwd.txt file"""
-        try:
-            with open('id_passwd.txt', 'r') as file:
-                for line in file:
-                    line = line.strip()
-                    if line:
-                        stored_user, stored_pass = line.split(':')
-                        if stored_user == username and stored_pass == password:
-                            return True
-            return False
-        except Exception as e:
-            self.logger.error(f"Error during authentication: {e}")
-            return False
+        return self.user_db.authenticate(username,password)
 
     def handle_list(self, client_socket, username):
         """Handle list command"""
